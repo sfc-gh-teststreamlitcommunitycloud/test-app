@@ -7,5 +7,5 @@ import logging
 
 log_text = st.text_input('Log text:')
 if st.button("send log"):
-    logging.info(log_text)
+    logging.error(log_text)
 
